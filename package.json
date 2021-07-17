@@ -1,7 +1,9 @@
 {
   "name": "codefe-ui",
-  "version": "0.1.0",
-  "private": true,
+  "version": "0.1.1",
+  "private": false,
+  "main": "./dist/codefe-ui.umd.min.js",
+  "author": "冯田祺",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
@@ -20,11 +22,24 @@
     "@vue/cli-service": "~4.5.0",
     "sass": "^1.26.5",
     "sass-loader": "^8.0.2",
-    "vue-template-compiler": "^2.6.11"
+    "vue-template-compiler": "^2.6.11",
+    "vuepress": "^1.8.2",
+    "webpack-cli": "^4.7.2"
   },
-  "browserslist": [
-    "> 1%",
-    "last 2 versions",
-    "not dead"
-  ]
+  "description": "## Project setup ``` npm install ```",
+  "directories": {
+    "doc": "docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FENGTIANQI-1/codefe-ui.git"
+  },
+  "keywords": [
+    "FENGTIANqi02"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FENGTIANQI-1/codefe-ui/issues"
+  },
+  "homepage": "https://github.com/FENGTIANQI-1/codefe-ui#readme"
 }
