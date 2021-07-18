@@ -52,13 +52,11 @@
       <cf-checkbox label="打球"></cf-checkbox>
       <cf-checkbox label="洗澡"></cf-checkbox>
       <cf-checkbox label="打麻将"></cf-checkbox>
-    </cf-checkbox-group>
+    </cf-checkbox-group> -->
 
-    <cf-link href="https://element.eleme.io" target="_blank" underline disabled
-      >hahah</cf-link
-    > -->
+    <cf-link href="https://element.eleme.io">默认链接</cf-link>
 
-    <cf-page-header @back="goBack" content="详情页面"></cf-page-header>
+    <!-- <cf-page-header @back="goBack" content="详情页面"></cf-page-header> -->
   </div>
 </template>
 
